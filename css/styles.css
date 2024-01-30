@@ -1,11 +1,85 @@
+/*основной цвет фона #FFFFFF;*/
+/*вторичный цвет фона #F5F4FA;*/
+/*основной цвет текста #212121;*/
+/*вторичный цвет текста #757575;*/
+/*белый #FFFFFF;*/
+/*акцент #2196F3;*/
+
 .body{
-background: #ECECEC;
+background-color: #fff;
+color: #212121;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo{
+    color: #000000;
+}
+
+/* class-navigation */
+.navigation .link {
+    color: #212121;
+}
+.navigation .link:hover, 
+.navigation .link:focus{
+    color: #2196F3;
+}
+
+.contact {
+color: #212121;
+}
+.contact:hover, 
+.contact:focus {
+    color: #2196F3;
 }
 
 
+/* section-hero */
 .hero {
 background: #2F303A;
 }
 .hero-title {
 color: #FFFFFF;
+}
+
+/* section-feature */
+.feature-title {
+    color: #212121;
+}
+.feature-title-descr {
+    color: #757575;
+}
+
+/* section-direction */
+.direction-title {
+    color: #212121;
+}
+
+/* section-team */
+.team-title {
+   background-color: #F5F4FA;
+    color: #212121;
+}
+.team-position {
+    color: #757575;
+}
+
+/* section-footer */
+.footer {
+    background-color: #2F303A;
+}
+.footer .logo {
+    color: #FFFFFF;
+}
+.footer p{
+    color: #FFFFFF;
+}
+.footer .contact{
+    color: rgba(255, 255, 255, 0.60);
+}
+.footer .contact:hover, 
+.footer .contact:focus {
+    color: #2196F3;
 }
