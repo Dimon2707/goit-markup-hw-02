@@ -5,6 +5,12 @@
 /*белый #FFFFFF;*/
 /*акцент #2196F3;*/
 
+:root{
+    --primary-text-color: #212121;
+    --title-text-color: #212121;
+    --accent-color:  #2196F3;
+}
+
 .body{
 background-color: #fff;
 color: #212121;
@@ -21,6 +27,10 @@ ul {
 /* class-navigation */
 .navigation .link {
     color: #212121;
+}
+
+.navigation .link.current {
+color: #2196F3;
 }
 .navigation .link:hover, 
 .navigation .link:focus{
@@ -82,4 +92,10 @@ color: #FFFFFF;
 .footer .contact:hover, 
 .footer .contact:focus {
     color: #2196F3;
+}
+
+/* button */
+.btn {
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
