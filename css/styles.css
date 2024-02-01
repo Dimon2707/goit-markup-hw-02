@@ -5,6 +5,7 @@
 /*белый #FFFFFF;*/
 /*акцент #2196F3;*/
 
+/* index.html */
 :root{
     --primary-text-color: #212121;
     --title-text-color: #212121;
@@ -29,13 +30,15 @@ ul {
     color: #212121;
 }
 
-.navigation .link.current {
-color: #2196F3;
-}
+
 .navigation .link:hover, 
 .navigation .link:focus{
     color: #2196F3;
 }
+
+.navigation .link.current {
+    color: #2196F3;
+    }
 
 .contact {
 color: #212121;
@@ -99,3 +102,5 @@ color: #FFFFFF;
     color: #FFFFFF;
     background-color: #2196F3;
 }
+
+/* portfolio.html */
