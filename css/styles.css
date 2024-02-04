@@ -15,6 +15,8 @@
     --footer-contact-color: rgba(255, 255, 255, 0.60); 
     --accent-color:  #2196F3;
     --white-color: #FFFFFF;
+    --logo-color: #000;
+    --logo-color-footer: #FFFFFF;
 }
 
 .body{
@@ -33,6 +35,10 @@ ul {
     font-weight: 700;
     font-size: 26px;
     letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.accent {
+    color: var(--logo-color);
 }
 
 /* class-navigation */
@@ -131,7 +137,10 @@ ul {
     background-color: var(--hero-background-color);
 }
 .footer .logo {
-    color: var(--white-color);
+    color: var(--accent-color);
+}
+.footer .accent {
+    color: var(--logo-color-footer);
 }
 .footer p{
     color: var(--white-color);
@@ -243,7 +252,10 @@ ul {
     background-color: var(--hero-background-color)
 }
 .footer .logo {
-    color: var(--white-color);
+    color: var(--accent-color);
+}
+.footer .accent {
+    color: var(--logo-color-footer);
 }
 .footer p{
     color: var(--white-color);
