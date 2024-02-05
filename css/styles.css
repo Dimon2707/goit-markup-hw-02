@@ -79,10 +79,25 @@ ul {
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.3;
+    line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
+}
+
+/* button */
+.hero-btn {
+    font-family: inherit;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    text-align: center;
+    background-color: var(--accent-color);
+}
+.hero-btn {
+    cursor: pointer;
 }
 
 /* section-feature */
@@ -95,7 +110,7 @@ ul {
 }
 .feature-title-descr {
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -143,9 +158,15 @@ ul {
     color: var(--logo-color-footer);
 }
 .footer p{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--white-color);
 }
 .footer .contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--footer-contact-color);
 }
 .footer .contact:hover, 
@@ -153,17 +174,7 @@ ul {
     color: var(--accent-color);
 }
 
-/* button */
-.hero-btn {
-    font-family: inherit;
-    color: var(--white-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.8;
-    letter-spacing: 0.06em;
-    text-align: center;
-    background-color: var(--accent-color);
-}
+
 
 /* portfolio.html */
 
@@ -177,6 +188,7 @@ ul {
     list-style: none;
 }
 
+/* header-logo */
 .logo {
     color: var(--accent-color);
     font-family: "Raleway", sans-serif;
@@ -218,7 +230,7 @@ ul {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--primary-text-color);
@@ -228,6 +240,9 @@ ul {
 .btn:focus {
     background-color: var(--accent-color);
     color: var(--white-color);
+}
+.btn {
+    cursor: pointer;
 }
 
 /* section-project */
@@ -251,6 +266,8 @@ ul {
 .footer {
     background-color: var(--hero-background-color)
 }
+
+/* foter-logo */
 .footer .logo {
     color: var(--accent-color);
 }
@@ -258,9 +275,15 @@ ul {
     color: var(--logo-color-footer);
 }
 .footer p{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--white-color);
 }
 .footer .contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--footer-contact-color)
 }
 .footer .contact:hover, 
